@@ -1,11 +1,15 @@
-package com.msvc.cqrs.model;
+package com.msvc.cqrs.commands.data;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
-public class ProductoRestModel {
+@Entity
+public class Producto {
+    @Id
     private String productoId;
     private String nombre;
     private BigDecimal precio;
