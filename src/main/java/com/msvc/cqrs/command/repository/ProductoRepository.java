@@ -1,6 +1,6 @@
-package com.msvc.cqrs.commands.repository;
+package com.msvc.cqrs.command.repository;
 
-import com.msvc.cqrs.commands.data.Producto;
+import com.msvc.cqrs.command.data.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductoRepository extends JpaRepository<Producto, String> {

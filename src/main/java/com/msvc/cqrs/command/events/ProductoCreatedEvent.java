@@ -1,4 +1,4 @@
-package com.msvc.cqrs.commands.events;
+package com.msvc.cqrs.command.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

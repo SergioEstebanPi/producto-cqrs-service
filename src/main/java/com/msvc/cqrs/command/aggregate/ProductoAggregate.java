@@ -1,7 +1,7 @@
-package com.msvc.cqrs.commands.aggregate;
+package com.msvc.cqrs.command.aggregate;
 
-import com.msvc.cqrs.commands.CreateProductoCommand;
-import com.msvc.cqrs.commands.events.ProductoCreatedEvent;
+import com.msvc.cqrs.command.commands.CreateProductoCommand;
+import com.msvc.cqrs.command.events.ProductoCreatedEvent;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.axonframework.commandhandling.CommandHandler;

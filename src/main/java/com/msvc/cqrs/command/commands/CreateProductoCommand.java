@@ -1,4 +1,4 @@
-package com.msvc.cqrs.commands;
+package com.msvc.cqrs.command.commands;
 
 import lombok.Builder;
 import lombok.Data;

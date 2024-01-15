@@ -1,7 +1,7 @@
-package com.msvc.cqrs.commands.events;
+package com.msvc.cqrs.command.events;
 
-import com.msvc.cqrs.commands.data.Producto;
-import com.msvc.cqrs.commands.repository.ProductoRepository;
+import com.msvc.cqrs.command.data.Producto;
+import com.msvc.cqrs.command.repository.ProductoRepository;
 import org.axonframework.eventhandling.EventHandler;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
